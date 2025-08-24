@@ -529,7 +529,7 @@ a:focus {
     margin-bottom: 45px;
     padding: 210px 0 90px 0;
     text-align: center;
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/mathura-india-feburary-232018-group-260nw-1605062005d.jpg);
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../img/mathura-india-feburary-232018-group-260nw-1605062005d.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
