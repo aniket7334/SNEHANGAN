@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>SNEHANGAN - Sign Up</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="NGO Website" name="keywords">
+    <meta content="NGO Sign Up Page" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+    
+    <!-- CSS Libraries -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Custom Signup CSS -->
+    <style>
+        body {
+            font-family: 'Quicksand', sans-serif;
+            background: #f4f4f9;
+        }
+
+        .signup-container {
+            background: #fff;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            width: 100%;
+            max-width: 400px;
+            margin: 40px auto;
+        }
+
+        .signup-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+            font-weight: 600;
+        }
+
+        .signup-container input {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+        }
+
+        .signup-container button {
+            width: 100%;
+            padding: 12px;
+            background: #28a745;
+            color: #fff;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .signup-container button:hover {
+            background: #218838;
+        }
+
+        .signup-container p {
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        .signup-container a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .signup-container a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Top Bar Start -->
+    <div class="top-bar d-none d-md-block">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="top-bar-left">
+                        <div class="text">
+                            <i class="fa fa-phone-alt"></i>
+                            <p>07122554209</p>
+                        </div>
+                        <div class="text">
+                            <i class="fa fa-envelope"></i>
+                            <p>snehangan81@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="top-bar-right">
+                        <div class="social">
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Top Bar End -->
+
+    <!-- Nav Bar Start -->
+    <div class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a href="index.html" class="navbar-brand">SNEHANGAN</a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div class="navbar-nav ml-auto">
+                    <a href="index.html" class="nav-item nav-link">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="registration.html" class="nav-item nav-link">Registration</a>
+                    <a href="problems.html" class="nav-item nav-link">Problems</a>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    <a href="signup.html" class="nav-item nav-link active">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Nav Bar End -->
+    
+    <!-- Page Header Start -->
+    <div class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Sign Up</h2>
+                </div>
+                <div class="col-12">
+                    <a href="index.html">Home</a>
+                    <a href="signup.html">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+    <!-- Signup Form Start -->
+    <div class="signup-container">
+        <h2>Create Account</h2>
+        <form onsubmit="return validateForm()">
+            <input type="text" id="name" placeholder="Full Name" required>
+            <input type="email" id="email" placeholder="Email Address" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+            <button type="submit">Register</button>
+        </form>
+        <p>Already have an account? <a href="#">Login</a></p>
+    </div>
+    <!-- Signup Form End -->
+
+    <!-- Footer Start -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-contact">
+                        <h2>Our Head Office</h2>
+                        <p><i class="fa fa-map-marker-alt"></i> Matru Seva Sangh, North Ambazari Road, Sitaburdi, Nagpur- 440010</p>
+                        <p><i class="fa fa-phone-alt"></i>07122554209</p>
+                        <p><i class="fa fa-envelope"></i> snehangan81@gmail.com</p>
+                        <div class="footer-social">
+                            <a class="btn btn-custom" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-custom" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-custom" href="#"><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-custom" href="#"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-custom" href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-link">
+                        <h2>Quick Links</h2>
+                        <a href="about.html">About Us</a>
+                        <a href="contact.html">Contact Us</a>
+                        <a href="problems.html">Problems</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container copyright">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; <a href="#">SNEHANGAN</a>, All Rights Reserved.</p>
+                </div>
+                <div class="col-md-6">
+                    <p>Designed By <a href="#">SNEHANGAN</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to top button -->
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+    
+    <!-- Pre Loader -->
+    <div id="loader" class="show">
+        <div class="loader"></div>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/parallax/parallax.min.js"></script>
+    
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    <!-- Signup Form Validation -->
+    <script>
+        function validateForm() {
+            let password = document.getElementById("password").value;
+            let confirmPassword = document.getElementById("confirmPassword").value;
+
+            if (password !== confirmPassword) {
+                alert("Passwords do not match!");
+                return false;
+            }
+            alert("Signup Successful!");
+            return true;
+        }
+    </script>
+</body>
+</html>
